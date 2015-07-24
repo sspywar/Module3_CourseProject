@@ -1,0 +1,87 @@
+# Codebook
+This is the codebook that describes the tidy data set output for Coursera Data Science course Module Getting and Cleaning Data course project
+
+This tidy data set is the resultant data set obtained from the data linked to the data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+The tidy data gives the average values of a selection of variables, the features with mean() and std(), for each activity and each subject.
+
+## Variables
+The variables of the tidy data set is given below:
+
+* subject
+The ID of the test subject. Range from 1:30
+
+* activity_label
+The activity carried out by the subject. Range (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
+
+* feature measurements
+The average values of the feature measurements for each activity and each subject. The list of features are as below:
+
+[1] "group_mean_tBodyAcc-mean()-X"          
+[2] "group_mean_tBodyAcc-mean()-Y"          
+[3] "group_mean_tBodyAcc-mean()-Z"          
+[4] "group_mean_tGravityAcc-mean()-X"       
+[5] "group_mean_tGravityAcc-mean()-Y"       
+[6] "group_mean_tGravityAcc-mean()-Z"       
+[7] "group_mean_tBodyAccJerk-mean()-X"      
+[8] "group_mean_tBodyAccJerk-mean()-Y"      
+[9] "group_mean_tBodyAccJerk-mean()-Z"      
+[10] "group_mean_tBodyGyro-mean()-X"         
+[11] "group_mean_tBodyGyro-mean()-Y"         
+[12] "group_mean_tBodyGyro-mean()-Z"         
+[13] "group_mean_tBodyGyroJerk-mean()-X"     
+[14] "group_mean_tBodyGyroJerk-mean()-Y"     
+[15] "group_mean_tBodyGyroJerk-mean()-Z"     
+[16] "group_mean_tBodyAccMag-mean()"         
+[17] "group_mean_tGravityAccMag-mean()"      
+[18] "group_mean_tBodyAccJerkMag-mean()"     
+[19] "group_mean_tBodyGyroMag-mean()"        
+[20] "group_mean_tBodyGyroJerkMag-mean()"    
+[21] "group_mean_fBodyAcc-mean()-X"          
+[22] "group_mean_fBodyAcc-mean()-Y"          
+[23] "group_mean_fBodyAcc-mean()-Z"          
+[24] "group_mean_fBodyAccJerk-mean()-X"      
+[25] "group_mean_fBodyAccJerk-mean()-Y"      
+[26] "group_mean_fBodyAccJerk-mean()-Z"      
+[27] "group_mean_fBodyGyro-mean()-X"         
+[28] "group_mean_fBodyGyro-mean()-Y"         
+[29] "group_mean_fBodyGyro-mean()-Z"         
+[30] "group_mean_fBodyAccMag-mean()"         
+[31] "group_mean_fBodyBodyAccJerkMag-mean()" 
+[32] "group_mean_fBodyBodyGyroMag-mean()"    
+[33] "group_mean_fBodyBodyGyroJerkMag-mean()"
+[34] "group_mean_tBodyAcc-std()-X"           
+[35] "group_mean_tBodyAcc-std()-Y"           
+[36] "group_mean_tBodyAcc-std()-Z"           
+[37] "group_mean_tGravityAcc-std()-X"        
+[38] "group_mean_tGravityAcc-std()-Y"        
+[39] "group_mean_tGravityAcc-std()-Z"        
+[40] "group_mean_tBodyAccJerk-std()-X"       
+[41] "group_mean_tBodyAccJerk-std()-Y"       
+[42] "group_mean_tBodyAccJerk-std()-Z"       
+[43] "group_mean_tBodyGyro-std()-X"          
+[44] "group_mean_tBodyGyro-std()-Y"          
+[45] "group_mean_tBodyGyro-std()-Z"          
+[46] "group_mean_tBodyGyroJerk-std()-X"      
+[47] "group_mean_tBodyGyroJerk-std()-Y"      
+[48] "group_mean_tBodyGyroJerk-std()-Z"      
+[49] "group_mean_tBodyAccMag-std()"          
+[50] "group_mean_tGravityAccMag-std()"       
+[51] "group_mean_tBodyAccJerkMag-std()"      
+[52] "group_mean_tBodyGyroMag-std()"         
+[53] "group_mean_tBodyGyroJerkMag-std()"     
+[54] "group_mean_fBodyAcc-std()-X"           
+[55] "group_mean_fBodyAcc-std()-Y"           
+[56] "group_mean_fBodyAcc-std()-Z"           
+[57] "group_mean_fBodyAccJerk-std()-X"       
+[58] "group_mean_fBodyAccJerk-std()-Y"       
+[59] "group_mean_fBodyAccJerk-std()-Z"       
+[60] "group_mean_fBodyGyro-std()-X"          
+[61] "group_mean_fBodyGyro-std()-Y"          
+[62] "group_mean_fBodyGyro-std()-Z"          
+[63] "group_mean_fBodyAccMag-std()"          
+[64] "group_mean_fBodyBodyAccJerkMag-std()"  
+[65] "group_mean_fBodyBodyGyroMag-std()"     
+[66] "group_mean_fBodyBodyGyroJerkMag-std()" 
