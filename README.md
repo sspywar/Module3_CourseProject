@@ -9,8 +9,7 @@ To use the script, first ensure the script is stored in your local machine. You 
 Once you have the script in your local machine, you should:
 1. Source the script "run_analysis.R" into R
 2. Set the working directory to be the "UCI HAR Dataset" directory that came with the dataset zip pack downloaded from the course project. This is important as the script would not know where this directory is located in your local machine. The script is built based on the prerequisite that the working directory is set before it can be run successfully
-3. Run the script by using the command:
-        run_analysis()
+3. Run the script by using the command: run_analysis()
 4. The script may take some time to complete, depending on the processing speed of your local machine.
 5. Once completed, a text file named "tidy_data.txt" will be created in the working directory, containing the tidy data set per step 5 of the course project
 
