@@ -3,6 +3,7 @@ This is the readme file for the Coursera Data Science Module 3 Getting and Clean
 
 ## How to use the script
 To use the script, first ensure the script is stored in your local machine. You may do this either by:
+
 1. Fork the repository and clone it onto your local machine to a directory of your choice
 2. Copy and paste the content of the script into a file named "run_analysis.R" that you may create on your local machine
 
@@ -16,6 +17,7 @@ Once you have the script in your local machine, you should:
 
 ## What does the script do
 The script does the following:
+
 1. load the "dplyr" package.
 2. read the data for features, activity label, training data set, test data set and the corresponding activity and subject data.
 3. Merges the training and the test sets to create one data set.
