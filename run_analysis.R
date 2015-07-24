@@ -60,6 +60,5 @@ run_analysis <- function() {
         
         # write the tidy data set into a txt file
         write.table(data_mean, file="tidy_data.txt", row.names = FALSE)
-        
 }
 
