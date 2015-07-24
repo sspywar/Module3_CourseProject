@@ -17,7 +17,7 @@ The ID of the test subject. Range from 1:30
 The activity carried out by the subject. Range (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
 
 * feature measurements
-The average values of the feature measurements for each activity and each subject. The list of features are as below:
+The average values of the feature measurements for each activity and each subject. The features selected are the mean and standard deviation of the measurements, ending with mean() or std(). The list of features are as below:
 
 [1] "group_mean_tBodyAcc-mean()-X"          
 [2] "group_mean_tBodyAcc-mean()-Y"          
