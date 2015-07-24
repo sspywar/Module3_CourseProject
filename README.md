@@ -7,7 +7,9 @@ To use the script, first ensure the script is stored in your local machine. You 
 1. Fork the repository and clone it onto your local machine to a directory of your choice
 2. Copy and paste the content of the script into a file named "run_analysis.R" that you may create on your local machine
 
+
 Once you have the script in your local machine, you should:
+
 1. Source the script "run_analysis.R" into R
 2. Set the working directory to be the "UCI HAR Dataset" directory that came with the dataset zip pack downloaded from the course project. This is important as the script would not know where this directory is located in your local machine. The script is built based on the prerequisite that the working directory is set before it can be run successfully
 3. Run the script by using the command: run_analysis()
