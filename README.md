@@ -1,6 +1,11 @@
 # Module3_CourseProject
 This is the readme file for the Coursera Data Science Module 3 Getting and Cleaning Data course project
 
+## Prerequisite
+The script requires "dplyr" library. Please install the "dplyr" package by entering the command in R:
+
+install.packages("dplyr")
+
 ## How to use the script
 To use the script, first ensure the script is stored in your local machine. You may do this either by:
 
